@@ -2,7 +2,7 @@ LIBFT = ./libft/libft.a
 NAME = libftprintf.a
 CC = cc
 CFLAGS = -Wall -Werror -Wextra
-CFILES = ft_printf.c hp_hexa_ptr.c hp_hexa_conv.c hp_itoa_count.c hp_u_itoa_count.c
+CFILES = ft_printf.c ft_hexa_ptr.c ft_hexa_conv.c ft_itoa_count.c ft_u_itoa_count.c
 OFILES = $(CFILES:.c=.o)
 
 

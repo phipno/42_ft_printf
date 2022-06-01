@@ -6,7 +6,7 @@
 /*   By: pnolte <pnolte@student.42heilbronn.de>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/19 12:47:06 by pnolte            #+#    #+#             */
-/*   Updated: 2022/04/25 12:33:33 by pnolte           ###   ########.fr       */
+/*   Updated: 2022/06/01 11:47:58 by pnolte           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,14 +88,3 @@ int	ft_printf(const char *str, ...)
 	va_end(args);
 	return (count);
 }
-
-// int	main(void)
-// {
-// 	int	count = 0;
-// 	int	*p = malloc(5);
-
-// 	count = ft_printf("\nMine: %p", &p);
-// 	ft_printf("\n%d", count);
-// 	count = printf("\nOrig: %p", &p);
-// 	printf("\n%d", count);
-// }
